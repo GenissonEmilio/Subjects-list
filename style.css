@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgray;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+fieldset {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.checkbox-container input {
+  margin-right: 10px;
+}
