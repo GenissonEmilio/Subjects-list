@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const checkboxes = ["as1", "as2", "as3", "as4", "as5", "as6", "as7", "as8", "as9", "as10", "as11"];
 
   // Carregar o estado dos checkboxes do localStorage
-  checkboxes.forEach(function(id) {
+  checkboxes.forEach((id) => {
     const checkbox = document.getElementById(id);
     const checked = localStorage.getItem(id) === "true";
     checkbox.checked = checked;
